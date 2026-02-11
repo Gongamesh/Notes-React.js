@@ -1,6 +1,6 @@
-# Note App
+# Notes App
 
-A basic note application built using React.js, CSS and JSON Server.
+A basic notes application built using React.js, CSS and JSON Server.
 
 ## Why this exists
 

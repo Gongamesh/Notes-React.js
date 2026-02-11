@@ -8,7 +8,7 @@ const AddNote = () => {
     return ( 
         <div className="add">
             <h3>Create new note</h3>
-            <Form method="post" action="/new">
+            <Form method="post" action="/notes/new">
                 <label>
                     <span>Title:</span>
                     <input type="text" name="title" required />

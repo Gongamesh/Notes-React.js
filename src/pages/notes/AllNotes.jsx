@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
-import Notes from "../components/Notes";
 import { useState } from "react";
+import Notes from "../../components/Notes";
 
 const AllNotes = () => {
     const allNotes = useLoaderData();
