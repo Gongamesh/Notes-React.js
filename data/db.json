@@ -1,0 +1,64 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Buy milk maybe",
+      "description": "Remember to buy milk unless i forget again like last time.",
+      "category": "personal"
+    },
+    {
+      "id": "2",
+      "title": "Random app idea",
+      "description": "An app that reminds people to drink water but aggresively.",
+      "category": "ideas"
+    },
+    {
+      "id": "4",
+      "title": "Workout plan",
+      "description": "Pushups\nsquats\ngive up halfway\nlie on the floor",
+      "category": "health"
+    },
+    {
+      "id": "5",
+      "title": "Travel thoughts",
+      "description": "Go somwhere nice.\nTake photos.\nFORGET CHARGER.",
+      "category": "other"
+    },
+    {
+      "id": "6",
+      "title": "Morning thoughts",
+      "description": "Wake up early\nRegret waking up early\nDrink coffee\nFeel slightly better",
+      "category": "personal"
+    },
+    {
+      "id": "7",
+      "title": "Project ideas",
+      "description": "Note taking app\nDark mode by default\nSync across devices",
+      "category": "ideas"
+    },
+    {
+      "id": "8",
+      "title": "Meeting recap",
+      "description": "Discussed deadlines\nEveryone nodded\nNo one knew what was going on",
+      "category": "work"
+    },
+    {
+      "id": "9",
+      "title": "Random reminder",
+      "description": "Check emails",
+      "category": "other"
+    },
+    {
+      "id": "6278",
+      "title": "Buy apple",
+      "description": "Dont forger to buy apples in store",
+      "category": "personal"
+    },
+    {
+      "id": "d94b",
+      "title": "Go to doctor",
+      "description": "Appointment scheduled for 16:45. DON'T FORGET!!!!",
+      "category": "health"
+    }
+  ]
+}

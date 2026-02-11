@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: #2563EB;
+  --secondary: #FACC15;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  background: #F9FAFB;
+  padding: 20px;
+}
+
+* {
+  color: darkgray;
+  margin: 0;
+}
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: #F9FAFB;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+/* navbar */
+
+header nav {
+  display: flex;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 3px solid darkgray;
+  gap: 10px;
+}
+
+header nav h1 {
+  margin-right: auto;
+  color: var(--primary);
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: var(--primary);
+  color:#F9FAFB;
+}
+
+header nav a:hover {
+  background: var(--secondary);
+  color: black;
+}
+
+/* page content */
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* notes */
+
+.notes {
+  display: inline-block;
+}
+
+.notes > a {
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+  margin: 15px 5px;
+  border: solid 2px darkgray;
+  border-radius: 10px;
+}
+
+.notes h2 {
+  color: var(--primary);
+  border-bottom: solid 1px gray;
+}
+
+.notes a p {
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.notes > a:hover p {
+  color: var(--secondary);
+}
+
+.notes > a:hover {
+  box-shadow: 2px 2px 6px rgba(0.1, 0.1, 0.1, 0.3);
+}
+
+/* add new note form */
+
+form {
+  margin-top: 30px;
+}
+
+form input, form label span, form textarea, form select {
+  display: block;
+}
+
+form input, form textarea {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 300px;
+  color: var(--primary);
+}
+
+form select {
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 300px;
+  background-color: #F9FAFB;
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+/* notes list */
+
+.all-notes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.all-notes label {
+  grid-column: span 3;
+  justify-self: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.all-notes label select {
+  font-size: 15px;
+  background-color: #F9FAFB;
+}
+
+/* note details */
+
+.note-details {
+  text-align: center;
+}
+
+.note-details h1 {
+  color: var(--primary);
+  font-size: 2.5em;
+}
+
+.note-details > p:first-of-type {
+  color: var(--secondary);
+}
+
+.note-desc {
+  border: solid 2px darkgray;
+  border-radius: 10px;
+}
+
+.note-desc button {
+  margin: 10px;
+  font-size: 1em;
+  background-color: red;
+}
+
+.note-desc button:hover {
+  box-shadow: 2px 2px 6px rgba(0.1, 0.1, 0.1, 1);
+}
